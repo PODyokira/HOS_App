@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&family=Inter:wght@300;400;500;600&display=swap');
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --red: #E02020; --red-dark: #B01010; --red-glow: rgba(224,32,32,0.3);
+  --black: #0A0A0A; --surface: #131313; --surface2: #1C1C1C; --surface3: #252525;
+  --border: #2A2A2A; --text: #F0F0F0; --text-muted: #888; --text-dim: #555;
+  --green: #22C55E; --yellow: #F59E0B; --blue: #3B82F6; --orange: #F97316;
+}
+body { background: var(--black); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.5; min-height: 100vh; }
+::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--red); }
+.font-display { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.05em; }
+.font-mono { font-family: 'Share Tech Mono', monospace; }
